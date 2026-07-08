@@ -35,6 +35,7 @@ Welcome to my cybersecurity portfolio! I'm an aspiring cybersecurity professiona
 ## 🎓 Education
 
 - Bachelor of Technology Major in **Electronics Technology** (Evaluated and Authenticated by World Education Services as an equivalent of a Canadian Bachelor's Degree)
+- PostGraduate in Cybersecurity and Threat Management - Seneca Polytechnic
 
 
 ---
