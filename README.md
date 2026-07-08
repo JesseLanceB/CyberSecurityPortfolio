@@ -10,7 +10,7 @@ my current lab work in detection engineering, penetration testing, and
 AI/LLM security.
 ---
 
-## 📂 Featured Projects
+ 📂 Featured Projects
 
 | Project | Description | Tools/Skills |
 |--------|-------------|--------------|
