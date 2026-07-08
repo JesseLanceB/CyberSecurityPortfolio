@@ -12,6 +12,7 @@ Welcome to my cybersecurity portfolio! I'm an aspiring cybersecurity professiona
 | [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | Google Cybersecurity Certification Portfolio activity  | Root Cause Analysis, Data Analysis and Visualization|
 | [Apply Filters to SQL queries](https://jesselanceb.github.io/Apply-Filters-to-SQL-queries/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, SQL, Data Gathering|
 | [Vulnerability Assessment](https://jesselanceb.github.io/Vulnerability-Assessment/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, , Risk Assessment|
+| [JTSD Co-op Preparation](https://github.com/JesseLanceB/jtsd-coop-prep) | 8-week self-directed prep for an Ontario Public Service IT Systems & Programmer co-op — SQL Server, Java/JDBC middleware, PowerShell, Excel automation | SQL, Java, JDBC, PowerShell, Documentation |
 
 ---
 
