@@ -1,6 +1,13 @@
 # 🛡️ Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio! I'm an aspiring cybersecurity professional with backgrounds in Customer Support, Content Moderation, IT Service Desk, and NOC Administration. I am always curious and enthusiastic about data and information security and the foundations behind them. I always think about the strings behind how it works and the means to stop and reduce security breach, denial of service and digital human exploitation. This portfolio is where I document my hands-on practice and continuous learning.
+Hi, I'm Jesse Lance Barreto — a postgraduate Cybersecurity & Threat Management
+student at Seneca Polytechnic with hands-on NOC/SOC experience at Milestone
+Technologies and ZeniMax Media, where I monitored enterprise infrastructure
+and once caught a DDoS against game servers by spotting a player-population
+anomaly before upstream alerts fired. This portfolio collects my applied
+security work, from the Google Cybersecurity Professional Certificate through
+my current lab work in detection engineering, penetration testing, and
+AI/LLM security.
 ---
 
 ## 📂 Featured Projects
@@ -9,9 +16,9 @@ Welcome to my cybersecurity portfolio! I'm an aspiring cybersecurity professiona
 |--------|-------------|--------------|
 | [Security Audit](https://jesselanceb.github.io/Security-Audit/) | Conducted an internal security audit within the Google Cybersecurity Certification  | Vulnerability assessment, Regulatory Compliance |
 | [Incident Response Analysis](https://jesselanceb.github.io/Incident-Report-Analysis/) | Google Cybersecurity Certification Portfolio activity  | Root Cause Analysis, Data Analysis and Visualization|
-| [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | Google Cybersecurity Certification Portfolio activity  | Root Cause Analysis, Data Analysis and Visualization|
+| [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | Google Cybersecurity Certification Portfolio activity  | Linux, chmod/permissions, least privilege.|
 | [Apply Filters to SQL queries](https://jesselanceb.github.io/Apply-Filters-to-SQL-queries/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, SQL, Data Gathering|
-| [Vulnerability Assessment](https://jesselanceb.github.io/Vulnerability-Assessment/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, , Risk Assessment|
+| [Vulnerability Assessment](https://jesselanceb.github.io/Vulnerability-Assessment/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, Risk Assessment|
 | [JTSD Co-op Preparation](https://github.com/JesseLanceB/jtsd-coop-prep) | 8-week self-directed prep for an Ontario Public Service IT Systems & Programmer co-op — SQL Server, Java/JDBC middleware, PowerShell, Excel automation | SQL, Java, JDBC, PowerShell, Documentation |
 
 ---
