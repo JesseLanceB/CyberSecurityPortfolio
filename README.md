@@ -1,5 +1,5 @@
 # 🛡️ Cybersecurity Portfolio
-
+---
 Hi, I'm Jesse Lance Barreto — a postgraduate Cybersecurity & Threat Management
 student at Seneca Polytechnic with hands-on NOC/SOC experience at Milestone
 Technologies and ZeniMax Media, where I monitored enterprise infrastructure
@@ -10,7 +10,7 @@ my current lab work in detection engineering, penetration testing, and
 AI/LLM security.
 ---
 
- 📂 Featured Projects
+## 📂 Featured Projects
 
 | Project | Description | Tools/Skills |
 |--------|-------------|--------------|
