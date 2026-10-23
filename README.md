@@ -14,6 +14,7 @@ AI/LLM security.
 
 | Project | Description | Tools/Skills |
 |--------|-------------|--------------|
+| [LLM Chatbot Security Assessment](https://github.com/JesseLanceB/llm-chatbot-security) | OWASP LLM Top 10 assessment of a self-hosted Ollama/Open WebUI chatbot (capstone) | Prompt injection, LLM security, Docker, OWASP ZAP |
 | [Security Audit](https://jesselanceb.github.io/Security-Audit/) | Conducted an internal security audit within the Google Cybersecurity Certification  | Vulnerability assessment, Regulatory Compliance |
 | [Incident Response Analysis](https://jesselanceb.github.io/Incident-Report-Analysis/) | Google Cybersecurity Certification Portfolio activity  | Root Cause Analysis, Data Analysis and Visualization|
 | [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | Google Cybersecurity Certification Portfolio activity  | Linux, chmod/permissions, least privilege.|
