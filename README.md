@@ -1,59 +1,65 @@
-# 🛡️ Cybersecurity Portfolio
----
-Hi, I'm Jesse Lance Barreto — a postgraduate Cybersecurity & Threat Management
-student at Seneca Polytechnic with hands-on NOC/SOC experience at Milestone
-Technologies and ZeniMax Media, where I monitored enterprise infrastructure
-and once caught a DDoS against game servers by spotting a player-population
-anomaly before upstream alerts fired. This portfolio collects my applied
-security work, from the Google Cybersecurity Professional Certificate through
-my current lab work in detection engineering, penetration testing, and
-AI/LLM security.
+# 🛡️ Jesse Lance Barreto — Cybersecurity Portfolio
+
+**SOC & detection engineering · Cloud security (Azure) · AI/LLM security**
+
+Postgraduate Cybersecurity & Threat Management student at Seneca Polytechnic (graduating December 2026) and IT Systems & Programmer Co-op in the Ontario Public Service. Before that, I spent several years in 24/7 IT operations. As a NOC Administrator at Milestone Technologies, supporting ZeniMax Media / Bethesda Softworks, I caught a DDoS attack on *The Elder Scrolls Online* by spotting a player-population anomaly in Grafana before any upstream alert fired.
+
+This portfolio collects my hands-on security work: detection engineering, incident investigation, vulnerability assessment, cloud security and LLM application security.
+
 ---
 
-## 📂 Featured Projects
+## 📂 Featured Projects (2026)
 
-| Project | Description | Tools/Skills |
-|--------|-------------|--------------|
-| [LLM Chatbot Security Assessment](https://github.com/JesseLanceB/llm-chatbot-security) | OWASP LLM Top 10 assessment of a self-hosted Ollama/Open WebUI chatbot (capstone) | Prompt injection, LLM security, Docker, OWASP ZAP |
-| [Security Audit](https://jesselanceb.github.io/Security-Audit/) | Conducted an internal security audit within the Google Cybersecurity Certification  | Vulnerability assessment, Regulatory Compliance |
-| [Incident Response Analysis](https://jesselanceb.github.io/Incident-Report-Analysis/) | Google Cybersecurity Certification Portfolio activity  | Root Cause Analysis, Data Analysis and Visualization|
-| [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | Google Cybersecurity Certification Portfolio activity  | Linux, chmod/permissions, least privilege.|
-| [Apply Filters to SQL queries](https://jesselanceb.github.io/Apply-Filters-to-SQL-queries/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, SQL, Data Gathering|
-| [Vulnerability Assessment](https://jesselanceb.github.io/Vulnerability-Assessment/) | Google Cybersecurity Certification Portfolio activity  | Data Analysis, Risk Assessment|
-| [JTSD Co-op Preparation](https://github.com/JesseLanceB/jtsd-coop-prep) | 8-week self-directed prep for an Ontario Public Service IT Systems & Programmer co-op — SQL Server, Java/JDBC middleware, PowerShell, Excel automation | SQL, Java, JDBC, PowerShell, Documentation |
+| Project | What I did | Tools & Skills |
+|---|---|---|
+| [**AI Chatbot Security Assessment**](https://github.com/JesseLanceB/llm-chatbot-security) (capstone, team of 5) | Threat-modelled a self-hosted LLM chatbot with STRIDE across five components and mapped requirements to PIPEDA, ISO/IEC 27001 and NIST CSF. Confirmed indirect prompt injection, system prompt leakage and an unauthenticated model API; tested XSS via model output (LLM05), ruling out reflected and stored XSS. Published my own [Docker image](https://hub.docker.com/r/jlib3027/chatbot-ollama). | Open WebUI, Ollama, Phi-3, Docker, Kali, STRIDE, OWASP LLM Top 10 |
+| **Detection Engineering Labs** | Built a detection for masquerading (MITRE ATT&CK T1036.003) using the Sysmon `OriginalFileName` field; wrote YARA rules from threat intel on the ClickFix generator campaign; mapped CAR analytics for port scanning and UAC bypass. | Sysmon, YARA, MITRE ATT&CK, CAR |
+| **Wazuh EDR Home Lab** | Deployed a Wazuh manager, indexer and dashboard, fixed systemd start-up timeouts and a port-binding failure, and enrolled a Windows 11 endpoint agent. | Wazuh, Linux, systemd, Windows 11, VMware |
+| **Network & Memory Forensics** | Investigated CyberDefenders incidents from packet captures and memory images: HawkEye keylogger (24/24), Tomcat Takeover (8/8), PsExec lateral movement and ActiveMQ CVE-2023-46604, each documented with a timeline, IOC table and recommendations. | Wireshark, NetworkMiner, Volatility |
+| **AWS Cloud Security Lab** | Built a segmented VPC with security groups, NACLs, WAF, GuardDuty and Suricata IDS, shipping logs with Filebeat into Elasticsearch/Kibana. | AWS, Suricata, ELK, Filebeat |
+| **Threat Intelligence Visualization** | Turned AlienVault OTX exports (STIX, CSV) into pandas dataframes and plotly charts, and compared indicator collections in code. | Python, pandas, plotly, STIX |
+
+## 🚧 In Progress
+
+- **LLM Security Testing:** automated promptfoo tests for prompt injection and system prompt leakage, run before and after hardening, extending my capstone. *Target: November 2026*
+- **Microsoft Sentinel Detection Lab:** KQL detections mapped to MITRE ATT&CK in Azure. *Target: December 2026*
+
+## 🗂️ Earlier Work
+
+| Project | Description | Tools & Skills |
+|---|---|---|
+| [Security Audit](https://jesselanceb.github.io/Security-Audit/) | Internal security audit (Google Cybersecurity Certificate) | Vulnerability assessment, compliance |
+| [Incident Report Analysis](https://jesselanceb.github.io/Incident-Report-Analysis/) | Incident analysis (Google Cybersecurity Certificate) | Root cause analysis |
+| [Permission Management in Linux](https://jesselanceb.github.io/Permission-management-in-Linux/) | File permissions and least privilege (Google Cybersecurity Certificate) | Linux, chmod |
+| [Apply Filters to SQL Queries](https://jesselanceb.github.io/Apply-Filters-to-SQL-queries/) | Security investigation queries (Google Cybersecurity Certificate) | SQL |
+| [Vulnerability Assessment](https://jesselanceb.github.io/Vulnerability-Assessment/) | Risk assessment (Google Cybersecurity Certificate) | Risk assessment |
+| [SQL Server Practice Database](https://github.com/JesseLanceB/jtsd-coop-prep) | Designed and seeded a relational database and wrote query drills (joins, aggregates, transactions) | SQL Server, T-SQL, Git |
 
 ---
 
 ## 🧠 Skills & Tools
 
-- **Ticketing System**: JIRA, ServiceNow
-- **Cybersecurity**: Security Audit, Incident Report Analysis
-- **Service Desk Specialist**: Equipment deployment assessment, Troubleshooting, VPN Configuration.
-- **NOC, Monitoring, Analysis**: Splunk, CheckMK, Azure, AWS, AnthillPro, TeamCity, Cloudwatch, Shinken, IAM.
-- **OS & Platforms**: Windows, Ubuntu, Active Directory, MacOS, CentOS, Linux.
-
----
+- **SIEM, EDR & Monitoring:** Splunk, Wazuh, Elasticsearch/Kibana, Grafana, CheckMK, Suricata
+- **Detection & Threat Intel:** Sysmon, YARA, MITRE ATT&CK, CAR, AlienVault OTX, STIX/OpenIOC
+- **Offensive & Assessment:** Kali Linux, Nmap, Metasploit, OpenVAS, STRIDE threat modelling, OWASP LLM Top 10
+- **Forensics:** Wireshark, NetworkMiner, Volatility, FTK Imager, SIFT Workstation
+- **Cloud & Identity:** Microsoft Azure (Entra ID, Azure SQL Managed Instance), AWS (EC2, VPC, WAF, GuardDuty)
+- **ITSM:** BMC Remedy, Jira Service Management, ServiceNow
+- **Scripting & Data:** Python (pandas, plotly), SQL, PowerShell
+- **Platforms:** Windows, Linux, macOS, Docker, VMware
 
 ## 🏆 Certifications
 
-- [x] [Cybersecurity Essentials by Microsoft and LinkedIn](https://www.linkedin.com/learning/certificates/a0f381e7c9831f3341eebc0b51c864b734073da82f2bc42b78fab1b9a31eae77?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiUPiSHAgSzmc%2B8o0NJ4sZQ%3D%3D)
-- [x] [IBM IT Support Professional](https://www.coursera.org/account/accomplishments/specialization/SZGMZ7B7A238)
-- [X] [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/2cebc36a-a3bf-4d09-85a5-10234b31dadb/linked_in_profile)
+- [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/2cebc36a-a3bf-4d09-85a5-10234b31dadb/linked_in_profile)
+- [Career Essentials in Cybersecurity — Microsoft & LinkedIn](https://www.linkedin.com/learning/certificates/a0f381e7c9831f3341eebc0b51c864b734073da82f2bc42b78fab1b9a31eae77)
+- [IBM IT Support Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/SZGMZ7B7A238)
 
----
 ## 🎓 Education
 
-- Bachelor of Technology Major in **Electronics Technology** (Evaluated and Authenticated by World Education Services as an equivalent of a Canadian Bachelor's Degree)
-- PostGraduate in Cybersecurity and Threat Management - Seneca Polytechnic
-
-
----
+- **Postgraduate Certificate, Cybersecurity and Threat Management**, Seneca Polytechnic, Toronto (December 2026)
+- **Bachelor of Technology, Electronics Technology** (WES-evaluated as equivalent to a Canadian bachelor's degree)
 
 ## 📫 Contact
 
 - LinkedIn: [Jesse Lance Barreto](https://www.linkedin.com/in/jesse-lance-barreto-b036b0123/)
 - Email: barretojesselance3027@gmail.com
-
----
-
-> 🔐 *“Cybersecurity is much more than a matter of IT.” – Stephane Nappo*
