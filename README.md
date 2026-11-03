@@ -21,7 +21,6 @@ This portfolio collects my hands-on security work: detection engineering, incide
 
 ## 🚧 In Progress
 
-- **LLM Security Testing:** automated promptfoo tests for prompt injection and system prompt leakage, run before and after hardening, extending my capstone. *Target: November 2026*
 - **Microsoft Sentinel Detection Lab:** KQL detections mapped to MITRE ATT&CK in Azure. *Target: December 2026*
 
 ## 🗂️ Earlier Work
