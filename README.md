@@ -21,7 +21,7 @@ This portfolio collects my hands-on security work: detection engineering, incide
 
 ## 🚧 In Progress
 
-- **Microsoft Sentinel Detection Lab:** KQL detections mapped to MITRE ATT&CK in Azure. *Target: December 2026*
+- **[Microsoft Sentinel Detection Lab](https://github.com/JesseLanceB/sentinel-detection-lab):** Sysmon telemetry from an Azure VM into Sentinel; first KQL analytics rule (T1036.003) live and tested. *Target: December 2026*
 
 ## 🗂️ Earlier Work
 
